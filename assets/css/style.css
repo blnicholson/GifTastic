@@ -1,0 +1,41 @@
+*{
+    font-family: 'Press Start 2P', cursive; 
+}
+body{
+   display:block;
+    background:url("../image/gaming-pattern.png");
+    text-align:center;
+}
+.jumbotron{
+    text-align: center;
+    background:url("../image/gaming-pattern.png");
+    height:50px;
+    
+}
+#one{
+    color:red;
+    text-shadow: 4px 4px black;
+}      
+#two{
+    color:blue;
+    text-shadow: 4px 4px black;
+}
+#three{
+    color:orange;
+    text-shadow: 4px 4px black;
+}
+.movieButton{
+    margin:10px;
+    color:red;
+}
+      
+ .holder{
+    margin:35px;
+    margin-left:35px;
+    margin-right:35px;
+    display:inline-block
+} 
+.card{
+    background:transparent;
+    border-color:yellow;
+}
