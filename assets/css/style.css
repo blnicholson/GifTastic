@@ -1,41 +1,97 @@
-*{
-    font-family: 'Press Start 2P', cursive; 
+
+ *{ font-family: "Press Start 2P", cursive;
+    font-weight:bolder;
 }
-body{
-   display:block;
-    background:url("../image/gaming-pattern.png");
-    text-align:center;
+body {
+  background: url("../image/background2.jpg");
+  text-align: center;
+  background-size:cover;
+  background-attachment:fixed;
 }
-.jumbotron{
-    text-align: center;
-    background:url("../image/gaming-pattern.png");
-    height:50px;
-    
+.jumbotron {
+  text-align: center;
+  background: transparent;
+  height: 50px;
 }
-#one{
-    color:red;
-    text-shadow: 4px 4px black;
-}      
-#two{
-    color:blue;
-    text-shadow: 4px 4px black;
+#one {
+  color: red;
+  text-shadow: 4px 4px black;
 }
-#three{
-    color:orange;
-    text-shadow: 4px 4px black;
+#two {
+  color: blue;
+  text-shadow: 4px 4px black;
 }
-.movieButton{
-    margin:10px;
-    color:red;
+#three {
+  color: orange;
+  text-shadow: 4px 4px black;
 }
-      
- .holder{
-    margin:35px;
-    margin-left:35px;
-    margin-right:35px;
-    display:inline-block
-} 
-.card{
-    background:transparent;
-    border-color:yellow;
+#four {
+  color:yellow;
+  text-shadow:4px 4px black;
 }
+.videoGameButton {
+  margin: 10px;
+  color: red;
+}
+.holder {
+  margin: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+  display: inline-block;
+
+} */
+.card {
+  background: transparent;
+  border-color: blue; 
+}
+
+p {
+  color:black;
+}
+input
+input[type="text"] {
+  color:blue 
+}
+
+.btn{
+background: lime;  
+background-image: -webkit-linear-gradient(top, lime, yellow);
+background-image: -moz-linear-gradient(top, lime, yellow);
+background-image: -ms-linear-gradient(top, lime, yellow);
+background-image: -o-linear-gradient(top, lime, yellow);
+background-image: linear-gradient(to bottom, lime, yellow);
+-webkit-border-radius: 30;
+    -moz-border-radius: 30;
+border-radius: 30px;
+
+text-shadow: 3px 2px 1px #9daef5;
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+  color:black;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+}
+.btn:hover {
+    background: yellow;
+    background-image: -webkit-linear-gradient(top, yellow, lime);
+    background-image: -moz-linear-gradient(top, yellow, lime);
+    background-image: -ms-linear-gradient(top, yellow, lime);
+    background-image: -o-linear-gradient(top, yellow, lime);
+    background-image: linear-gradient(to bottom, yellow, lime);
+    text-decoration: none;
+  }
+ 
+ input[type=image]{
+   height:80px;
+   width:80px;
+ }
+ #fontawesome{
+   position:absolute;
+  margin-left:25px;
+  margin-top:22px;
+ }
+ h3{
+   color:orangered;
+ }

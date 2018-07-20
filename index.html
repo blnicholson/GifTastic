@@ -4,9 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>GifTastic</title>
+    <title>Video Game Gif Vault</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/image/NES1Favicon.png">
@@ -16,36 +18,48 @@
 
 <body>
     <div class="container-fluid">
-        <div class="jumbotron jumbotron-fluid">
-            <h1 class="display-4">
-                <span id="one">Video</span>
-                <span id="two">Game</span>
-                <span id="three">Vault</span>
-            </h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron jumbotron-fluid">
+                    <h1 class="display-4">
+                        <span id="one">Video</span>
+                        <span id="two">Game</span>
+                        <span id="three">Gif</span>
+                        <span id="four">Vault</span>
+                    </h1>
+                </div>
+            </div>
         </div>
-        <div id="gifButtons"></div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="gifButtons"></div>
+            </div>
+        </div>
         <br>
-
-
-        <form id="searchForm">
-            <label for="gifSearch">Add Your Favorite Video Game</label>
-            <input type="text" id="gifSearch">
-            <br>
-            <input id="add-movie" type="submit" value="Submit Video Game">
-        </form>
-
-
+        <div class="row">
+            <div class="col-md-12">
+                <form id="searchForm">
+                    <label for="gifSearch">Add Your Favorite Video Game</label>
+                    <input type="text" id="gifSearch">
+                    <br>
+                    <span id="fontawesome"><i class="fas fa-search fa-2x"></i></span>
+                    <input type="image" src="assets/image/arcade_yellow_half.png" id="addvideoGame">
+                </form>
+            </div>
+        </div>
         <br>
         <br>
-        <div class="card" id="gifCard">
-            <div class="card-body">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>And the Results are......</h3>
                 <div id="gifBoard"></div>
             </div>
 
         </div>
-    </div>
-    <script src="assets/javascript/app.js"></script>
+    </diV>
 
+    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
