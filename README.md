@@ -1,4 +1,4 @@
-#### **Video Game Gif Vault**
+# **Video Game Gif Vault**
 A simple app that displays Gifs of the users choice!  
 
 ## **Overview**
